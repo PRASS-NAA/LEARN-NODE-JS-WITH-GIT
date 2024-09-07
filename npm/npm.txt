@@ -1,0 +1,21 @@
+node package manager is a large open source library 
+
+using npm u can download many dependencies ...using it u can finish ur project easily without doing everything from scratch
+
+
+1. first create a index.js file 
+
+for ur project first initialize node
+
+npm init
+this will create package.json (this file contains neccesary info abt ut projects.... whenever u dowload a module for that project, dependcies key will be updated)
+
+to install a package -> npm install (i) something.
+
+
+2. To Use a package we can either use import statement or require statement
+   2.1 require
+       1. by default we can use require so dont change anything in package.json
+          const name = require('packagename')
+   2.2 import
+       1. If u want to use import statements go to package.json and tyep "type":"module"       
