@@ -1,0 +1,7 @@
+EXPRESS is a node js framework to build servers
+
+node js provides environment to run js
+express is used for building servers
+
+INSTALL NODEMON ->npm package which restarts server whenever it detects changes in index.js,without nodemon it would be frustraing to 
+press ctl c and again run everytime

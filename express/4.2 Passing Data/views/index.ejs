@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Passing</title>
+</head>
+<body>
+    <% if (locals.number) { %>
+     <h1>There are <%= number %> of letters in <%= fulln %></h1>
+    <% } else { %>
+        <h1>Write Your Name Below </h1>
+        <%} %>
+     
+    <form action="/submit" method="post">
+        <input type="text" name="fname" placeholder="FirstName">
+        <input type="text" name="lname" placeholder="LastName">
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>

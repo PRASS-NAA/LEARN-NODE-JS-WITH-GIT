@@ -1,0 +1,15 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "\"Connecting MongoDB Driver Official\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prasanna Narayanan",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.8.1"
+  }
+}
